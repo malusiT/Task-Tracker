@@ -2,7 +2,7 @@
 
 ### A lightweight CLI task management application built with java.
 
-================================================
+**Project URL:** https://roadmap.sh/projects/task-tracker
 
 ## What it does
 
