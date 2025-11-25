@@ -1,6 +1,7 @@
 # Task Tracker
 
-### CLI app to track tasks and manage to do list
+### A lightweight CLI task management application built with java.
+
 ================================================
 
 ## What it does
@@ -8,16 +9,35 @@
 > Application runs from the command line
 
 - Add, Update, and Delete tasks
-- Marks tasks in progress or does
+- Mark tasks in progress or done
 - Lists all tasks
-- Filter and list tasks as done, not done and in progress
+- Filter and list tasks as done, to-do and in-progress
 - Saves tasks and updates locally
 
+## Prerequisites
+- Java JDK 11 or higher
+- Gson library (inlcuded in ./lib)
+
+# Installation
+
+```bash
+
+# Clone the repository
+git clone https://github.com/malusiT/Task-Tracker.git
+cd Task-Tracker
+
+# Make the run script executable
+chmod+x run.sh
+
+# Run the application
+./run.sh
+```
+
 ## Example
+```bash
 
-
-  `# Adding a new task
-  task-cli add "Buy groceries"
+ # Adding a new task
+task-cli add "Buy groceries"
   # Output: Task added successfully (ID: 1)
   
   # Updating and deleting tasks
@@ -35,7 +55,7 @@
   task-cli list done
   task-cli list todo
   task-cli list in-progress
-  
+```
 
 
 
