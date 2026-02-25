@@ -27,7 +27,8 @@ git clone https://github.com/malusiT/Task-Tracker.git
 cd Task-Tracker
 
 # Make the run script executable
-chmod+x run.sh
+chmod u+x run.sh
+
 
 # Run the application
 ./run.sh
